@@ -1,0 +1,88 @@
+ul{
+    display: flex;
+    list-style-type: none;
+    padding: 5px;
+    justify-content: center;
+    font-size: 30px;
+    background-image:url(/img/bandeira-da-europa_469558-2879.avif);
+    background-size:contain;
+    background-position:left;
+    color: black;
+    border-radius: 15px;
+    }
+
+nav ul li{
+    margin-left: 16px;
+    padding: 10px;
+    background-color: yellow;
+    color: black;
+    height:min-content;
+    border-radius: 15px;    
+}
+body{
+    background-color: white;
+    color: black;
+    }
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+    padding: 10px;
+}
+
+section{
+    text-align:left;
+}
+
+footer{
+    display: flex;
+    list-style-type: none;
+    padding: 50px;
+    justify-content: center;
+    font-size: 30px;
+    background-image:url(/img/bandeira-da-europa_469558-2879.avif);
+    background-size:contain;
+    background-position:left;
+    color: white;
+    clear: both
+}
+h3{
+    padding: 10px;
+   }
+
+h4{
+    padding: 10px;
+    
+}
+
+a{
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+.text-column {
+    width: 50%;
+    float: left;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.image-column {
+    width: 50%;
+    padding-inline-end: 15px;
+    float: right;
+    box-sizing: border-box;
+    border-radius: 15px;
+        overflow: hidden; /* Evita que as imagens ultrapassem a coluna */
+}
+
+/* Estilos para as imagens */
+.image-column img {
+    width: 100%; /* Garante que a imagem preencha a largura da coluna */
+    display: block; /* Remove espaços extras abaixo da imagem */
+}
+
+.aside{
+    justify-content: end;
+}
